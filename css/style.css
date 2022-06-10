@@ -1,0 +1,15 @@
+* {
+  overflow: hidden;
+}
+
+.img_uzb,
+.img_usd,
+.img_euro,
+.img_rub {
+  display: none;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

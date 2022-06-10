@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Lesson || Valyuta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-zinc-600">
+    <div class="container mx-auto wrapper">
+      <h1
+        class="text-center font-bold text-3xl uppercase p-10 text-slate-100 tracking-wide animate__animated animate__backInLeft animate__delay-1s"
+      >
+      Currency Convertor
+      </h1>
+      <form
+        class="js-form p-10 flex justify-center md:flex flex-wrap"
+        action="https://echo.htmlacademy.ru/"
+        method="post"
+      >
+        <input
+          class="js-input w-1/2 p-5 rounded-full focus:outline-none focus:ring focus:outline-gray-900 focus:outline-2 animate__animated animate__fadeInDown animate__delay-2s"
+          type="number"
+          placeholder="UZB TO USD AND YEVRO"
+        />
+        <select
+          class="js-select mx-10 outline-none rounded-lg w-3/12 animate__animated animate__fadeInUp animate__delay-2s cursor-pointer"
+        >
+          <option class="text-center font-bold" disabled selected>
+            Valyutalar kurslari
+          </option>
+          <option
+            class="js-euro text-center font-bold text-orange-500"
+            value="EURO"
+          >
+            EURO
+          </option>
+          <option
+            class="js-dollor text-center font-bold text-green-500"
+            value="USD"
+          >
+            USD
+          </option>
+          <option
+            class="js-rubil text-center font-bold text-blue-500"
+            value="RUB"
+          >
+            RUB
+          </option>
+        </select>
+        <button
+          class="js-btn ml-2 border px-10 rounded-full text-xl font-bold text-slate-100 animate__animated animate__wobble animate__delay-2s animate__repeat-3 cursor-pointer" 
+        >
+          Send
+        </button>
+      </form>
+      <h1
+        class="js-text text-center p-10 my-6 bg-gray-400 w-1/2 mx-auto rounded-full text-4xl text-white font-bold animate__animated animate__backInRight animate__delay-1s cursor-not-allowed"
+      >
+      </h1>
+    </div>
+    <img class="img_usd" src="./images/download-usd.png" alt="USD">
+    <img class="img_euro" src="./images/download-euro.png" alt="EURO">
+    <img class="img_rub" src="./images/download-rub.png" alt="RUB">
+    <script src="./js/main.js"></script>
+  </body>
+</html>
